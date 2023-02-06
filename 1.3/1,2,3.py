@@ -7,7 +7,7 @@ import requests
  #1.2
 
 # Crea un usuario
-url = "https://petstore.swagger.io/v2/user/R"
+url = "https://petstore.swagger.io/v2/user"
 payload = {"username": "example_user", "firstName": "John", "lastName": "Doe", "email": "example@gmail.com", "password": "password123"}
 headers = {'Content-Type': 'application/json'}
 
