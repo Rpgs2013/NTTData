@@ -21,7 +21,7 @@ headers = {'Content-Type': 'application/json'}
 response = requests.post(url, json=payload, headers=headers)
 
 # Recupera los datos del usuario
-url = "https://petstore.swagger.io/v2/user/example_user"
+url = "https://petstore.swagger.io/v2/user/Paco132"
 
 response = requests.get(url)
 data = response.json()
