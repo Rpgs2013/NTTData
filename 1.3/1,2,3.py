@@ -8,7 +8,14 @@ import requests
 
 # Crea un usuario
 url = "https://petstore.swagger.io/v2/user"
-payload = {"username": "example_user", "firstName": "John", "lastName": "Doe", "email": "example@gmail.com", "password": "password123"}
+payload = {"id": 0,
+  "username": "Paco213",
+  "firstName": "Paco",
+  "lastName": "Roberto",
+  "email": "pacoroberto@gmail.com",
+  "password": "PacoRoberto",
+  "phone": "690235920",
+  "userStatus": 0}
 headers = {'Content-Type': 'application/json'}
 
 response = requests.post(url, json=payload, headers=headers)
